@@ -1,4 +1,8 @@
-var detaco = require('../lib/detaco');
+Resolve t.co (taco, Twitter) URLs in Node.JS
+
+```javascript
+
+var detaco = require('detaco');
 
 var tweet 	= 'Testing a taco link thing (please ignore; or click (-: ) http://t.co/GOOmqPYo https://t.co/3jB0tITR';
 var url 	= 'http://t.co/n2OHioV';
@@ -23,3 +27,5 @@ Output:
 Resolved URL: http://tinyurl.com/7e3nfyn
 Resolved Tweet: Testing a taco link thing (please ignore; or click (-: ) http://gimmebar.com/view/4fa86274aac4229c6400001d https://gimmebar.com/view/4fa86274aac4229c6400001d
 **/
+
+```

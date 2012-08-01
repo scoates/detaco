@@ -1,15 +1,16 @@
 {
   "name": "detaco",
   "description": "Simple module for resolving t.co (taco) URLs",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Sean Coates <sean@seancoates.com>",
   "contributors": [
-    { "name": "Sean Coates", "email": "sean@seancoates.com" }
+    { "name": "Sean Coates", "email": "sean@seancoates.com" },
+    { "name": "Fabian Tollenaar", "email": "fabian@starting-point.nl" }
   ],
   "keywords": ["t.co","url","taco","twitter","short"],
   "repository": {
     "type": "git",
-    "url": "https://github.com/scoates/detaco.git"
+    "url": "https://github.com/fabdrol/detaco.git"
   },
   "engines": { "node": ">=0.6.0" },
   "files": [
