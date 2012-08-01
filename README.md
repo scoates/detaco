@@ -1,5 +1,18 @@
 Resolve t.co (taco, Twitter) URLs in Node.JS
 
+!! Note: to install, use instructions below. If you install via `npm install detaco` you'll get the original, different version (https://github.com/scoates/detaco).
+
+```
+
+// INSTALLATION
+// In terminal, cd to your project directory and type:
+cd node_modules
+git clone http://github.com/fabdrol/detaco.git && cd detaco
+npm install
+cd ../../
+
+```
+
 ```javascript
 
 var detaco = require('detaco');
